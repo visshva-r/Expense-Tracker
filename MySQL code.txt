@@ -1,0 +1,6 @@
+create table transactions (
+    transaction_id int auto_increment primary key,
+    category varchar(50),
+    amount decimal(10,2),
+    transaction_date date
+);
